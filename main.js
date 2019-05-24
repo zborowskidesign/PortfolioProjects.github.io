@@ -5,7 +5,25 @@ const navigation = document.querySelector('.navigation');
 const text = document.querySelector('.text');
 const txt = document.querySelector('.txt-rotate');
 const exit = document.querySelector('.exit');
+
+//Sekcja header image
+$(window).scroll(function() {
+    var scrolPosition = $(this).scrollTop();
+    $('header').css({
+       'background-size' : 100 + scrolPosition + '%',
+    })
+    if($(window).width() < 960){
+        $('header').css({
+            'background-size' : 'auto',
+         })
+    }
+    
+  })
   
+
+
+//Koniec sekcji header image
+
 //Sekcja kontakt
 info.addEventListener('click',function(){
 contact.style.display = 'block';
@@ -104,7 +122,7 @@ document.body.appendChild(css);
 //Koniec sekcji typing
   
 //Sekcja card-me
-const iconTv = document.querySelector('.fa-tv');
+/*const iconTv = document.querySelector('.fa-tv');
 const bg = document.querySelector('.card-me');
 const windowWidth = window.innerWidth / 5;
 const windowHeight = window.innerHeight / 5 ;
@@ -113,8 +131,15 @@ const mouseX = e.clientX / windowWidth;
 const mouseY = e.clientY / windowHeight;
 bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
 });
-  
-//Sekcja pełne zaangażowanie
+*/
+//Sekcja flip background
+$(document).ready(function(){
+    $('.container div').mouseover(
+        function(){
+            $(this).addClass('flip')
+        }
+    )
+})
 
 //Sekcja cursor
 (function(){
