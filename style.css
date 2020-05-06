@@ -42,7 +42,7 @@
 
   header{
      height:100vh;
-     background-image: url('hiker.jpg');
+     background-image: url('img/hiker.jpg');
      filter: saturate(150%);
      filter: brightness(1.35);
      background-size: cover;
@@ -589,16 +589,16 @@
   opacity: 0.75;
   }
   .study1 {
-  background-image: url('rocketproject.png');
+  background-image: url('img/rocketproject.png');
   }
   .study2 {
-  background-image: url('imgchanger.png');
+  background-image: url('img/imgchanger.png');
   }
   .study3 {
-  background-image: url('mowiacwprost.pl_.png');
+  background-image: url('img/mowiacwprost.pl_.png');
   }
   .study4 {
-  background-image: url('fr.png');
+  background-image: url('img/fr.png');
   }
   
   /********Koniec sekcji portfolio********/
