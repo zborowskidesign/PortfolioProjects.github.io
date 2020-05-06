@@ -216,9 +216,7 @@
      background: -o-linear-gradient(70deg, #fff  30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, rgba(0, 0, 0, 0) 60%, #1A70B5 60%);
      background: -moz-linear-gradient(70deg, #fff  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, rgba(0, 0, 0, 0.089) 60%, #C76495 60%);
      background: linear-gradient(70deg, #fff  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, rgba(0, 0, 0, 0) 60%, #F0D91D 60%);
-     background-attachment: fixed;
-     box-shadow: 0 2px 25px 2px rgb(110, 104, 104), 0 2px 50px 2px rgb(119, 115, 115), 0 0 100px 3px rgb(139, 130, 130);
-     
+     background-attachment: fixed;   
   }
   .introduce{
      line-height: 120%;
@@ -271,7 +269,8 @@
   color:black;
   background-color: #fff;
   background-attachment: scroll;
-  box-shadow: inset 0 0 50px rgba(175, 167, 109, 0.735);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: solid 5px hsla(0, 95%, 35%, 1);
   }
   .purpose{
   transform: translate(-100vw);
@@ -309,7 +308,7 @@
   }
   /*******Koniec sekcji o mnie********/
   
-  
+ 
   /********Sekcja card about me*******/
   .card-me{
   margin-bottom: 50px; 
@@ -618,6 +617,12 @@
   .footerelement{
   display: inline-block;
   margin-left:4px;
+  border-right: 2px solid #FEBE76;
+  padding-right: 5px;
+  }
+  .footerelement:last-child
+  {
+   border-right: none;
   }
   .footerelement a{
   text-decoration: none;
