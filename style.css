@@ -271,6 +271,8 @@
   background-attachment: scroll;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   border: solid 5px hsla(0, 95%, 35%, 1);
+  margin-right: 1rem;
+  margin-left: 1rem;
   }
   .purpose{
   transform: translate(-100vw);
