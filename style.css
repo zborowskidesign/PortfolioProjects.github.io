@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+
   }
   html{
-    font-family: 'sans-serif', 'Arial','Lato';
+    font-family: 'Open-Sans', 'Arial','Lato';
     font-size: 20px;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -737,6 +738,12 @@
   .navigation{
   top:20%;
   }
+
+  .main
+  {
+     border:none;
+  }
+
   .navigation li{
   margin-right: -10px;
   }
@@ -768,6 +775,7 @@
   }
   header{
      background-image: none;
+     background: linear-gradient(70deg, #fff 30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, rgba(0, 0, 0, 0) 60%, #F0D91D 60%);
   }
   .text-type-animation{
   font-size:30px;
@@ -835,7 +843,8 @@
   }
   .footerlist{
   text-align: center;
-  margin-bottom: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   }
   p{
   font-size:15px;
@@ -854,7 +863,7 @@
   p {
   margin: 0 auto 2rem;
   text-align: center;
-  font-family: 'oswald';
+  font-family: 'Open-Sans';
   font-size: 1.25rem;
   color: #444;
   font-weight: 100;
